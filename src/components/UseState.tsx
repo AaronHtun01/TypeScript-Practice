@@ -5,7 +5,7 @@ interface User {
     age: number
 }
 
-const UserProfile:React.FC = () => {
+const UserProfile = () => {
 
     const [user, setUser] = useState<User>({name: "", age: 0})
 

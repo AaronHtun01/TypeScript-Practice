@@ -7,7 +7,7 @@ interface Student {
     isPassed: boolean
 }
 
-const PassLists: React.FC = () => {
+const PassLists = () => {
     const [showList, setShowList] = useState<Student[]>([])
 
     useEffect(() => {
